@@ -1,6 +1,11 @@
+
 # TourRight
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+
+# tourRight
+To provide efficient and quick accessibility for tourists, Ensuring that their immediate needs are cartered for and to accurately display and capture the places that they are intrested in.      
+
 
 ## Development server
 
