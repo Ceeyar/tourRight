@@ -1,12 +1,12 @@
-<mat-card>
-  <mat-card-title>Login</mat-card-title>
-  <mat-card-content>
+<mat-card class="w-25 mx-auto login">
+  <mat-card-title class="text-center">Login</mat-card-title>
+  <mat-card-content class="d-flex justify-content-center">
     <form [formGroup]="form" (ngSubmit)="submit()">
-      <p>
+      <div formControlName="firstName">
         <mat-form-field>
           <input type="text" matInput placeholder="Username" formControlName="username">
         </mat-form-field>
-      </p>
+      </div>
 
       <p>
         <mat-form-field>
@@ -18,8 +18,8 @@
         {{ error }}
       </p>
 
-      <div class="button">
-        <button type="submit" mat-button>Login</button>
+      <div class="d-flex justify-content-end">
+        <a routerLink="/home" routerLinkActive="active" mat-button>Login</a>
       </div>
 
     </form>
