@@ -6,12 +6,13 @@ import {
   MatInputModule,
   MatButtonModule
 } from "@angular/material";
+import { HomeComponent } from './home/home.component';
 
 const modules = [MatCardModule, MatInputModule, MatButtonModule];
 
 @NgModule({
   imports: [modules, CommonModule, ReactiveFormsModule],
-  declarations: [],
+  declarations: [HomeComponent],
   exports: [modules, CommonModule, FormsModule, ReactiveFormsModule]
 })
 export class SharedModule {}
